@@ -1,0 +1,3 @@
+[frontend]
+id = "bdvm"
+module = "bdvm.plugin:Frontend"

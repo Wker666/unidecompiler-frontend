@@ -1,0 +1,3 @@
+[frontend]
+id = "qimeivm"
+module = "qimeivm.plugin:Frontend"

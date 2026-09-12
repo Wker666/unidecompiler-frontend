@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unidecompiler-plugin-jdvm"
+version = "0.1.0"
+description = "jdvm"
+license = "PolyForm-Noncommercial-1.0.0"
+authors = [{ name = "jdvm" }]
+requires-python = ">=3.11"
+dependencies = ['unidecompiler>=0.2.2,<0.3.0']
+
+[project.entry-points."unidecompiler.frontends"]
+"jdvm" = "jdvm.plugin:Frontend"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+jdvm = ["vm_definition.json"]
