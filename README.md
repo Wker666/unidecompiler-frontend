@@ -1,6 +1,6 @@
-# UniDecompiler 前端集合
+# unidecompiler 前端集合
 
-一组针对 JS 反爬 / 设备指纹 / 风控 VM 的 [`unidecompiler`](https://pypi.org/project/unidecompiler/) 反编译前端，配套原始字节码样本。每个前端负责解码一种 VM 字节码格式，并把中性事实提交给 core 做还原。
+一组针对 JS 反爬 / 设备指纹 / 风控 VM 的 [`unidecompiler`](https://github.com/Wker666/unidecompiler) 反编译前端，配套原始字节码样本。
 
 ## 前端 ↔ 目标算法
 
