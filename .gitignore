@@ -32,10 +32,3 @@ env/
 # OS
 .DS_Store
 Thumbs.db
-
-# Local sample bytecode and generated output
-*.bd
-*.qimei
-*.jd
-*.kasada
-*.mtgsig
